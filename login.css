@@ -1,0 +1,66 @@
+html{
+    background-image : url("http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg");
+    font-family: "Trirong", serif;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    color: aliceblue; 
+}
+
+.login{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: aliceblue; 
+}
+
+
+.form{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.new{
+    margin-left : 40px;
+
+}
+
+#square{
+
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 1180px;
+    height: 180px;
+    width : 250px;
+    opacity: 30%;
+    border-radius: 10px;
+}
+
+#weatherInfo{
+    margin-top: 40px;
+    margin-left: 1200px;
+    color: aliceblue;
+    text-align: left;
+
+}
+
+
+p.det{
+
+    color: aliceblue; 
+    text-align: center;
+
+}
+
+.newform{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
