@@ -1,0 +1,84 @@
+# Hostel Management System
+
+## Introduction
+
+The Hostel Management System (HMS) is designed to streamline and modernize the management of hostel-related activities for students and administrative bodies at NSUT. The current system relies on manual processes and outdated technology, leading to inefficiencies and security risks. HMS aims to address these issues by providing a digital platform for managing student accommodations, staff oversight, and hostel facilities.
+
+## Features
+
+### User Management
+- **Student Registration:** Allows students to register and access hostel-related information, room allocation, and facilities.
+- **Staff Registration:** Enables staff to manage student records, room assignments, and maintain hostel amenities.
+- **Access Levels:** Different access levels for students and staff to ensure data security and appropriate access to information.
+
+### Hostel Facilities
+- **Room Allocation:** Streamlined process for room assignments and reassignments.
+- **Complaint Management:** Platform for students to raise complaints and track their status.
+- **Request Handling:** System for students to raise housekeeping and maintenance requests.
+
+### Data Management
+- **Digital Records:** Eliminates the need for paper-based records, reducing storage challenges and improving data accessibility.
+- **Centralized Database:** A centralized system for storing and retrieving student and staff records.
+
+### Security
+- **Login and Password Protection:** Ensures data security and minimizes the risk of information leaks.
+- **Access Control:** Ensures that only authorized personnel can view or modify sensitive information.
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP, MySQL
+- **Development Tools:** XAMPP, VS Code
+- **Platform:** Web-based application accessible via any browser (preferred: Google Chrome)
+
+## Installation and Setup
+
+### Prerequisites
+- **Hardware:** 16GB RAM, Linux OS, large storage space
+- **Software:** XAMPP, VS Code, a web browser
+
+### Steps to Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   ```
+2. **Start XAMPP:**
+   - Open XAMPP Control Panel and start Apache and MySQL.
+3. **Import the Database:**
+   - Open phpMyAdmin and create a new database named `hostel`.
+   - Import the `hostel.sql` file from the `database` folder into the newly created database.
+4. **Configure Database Connection:**
+   - Update the database configuration in `config.php` with your MySQL credentials.
+5. **Launch the Application:**
+   - Open your browser and navigate to `http://localhost/hostel`.
+
+## Usage
+
+### User Registration
+- **Students and staff can register on the platform by providing their details such as ID number, name, account type, hostel, room number, and phone number.**
+
+### Login
+- **Users can log in with their username and password. Depending on their account type, they will be redirected to the appropriate dashboard.**
+
+### Dashboard
+- **Student Dashboard:** Access staff details, mess menu, raise requests, register complaints, mark attendance, confirm mess absence, check laundry status, and provide suggestions.
+- **Staff Dashboard:** View and manage student details, room allocations, and oversee hostel maintenance.
+
+## Future Enhancements
+
+- **Mobile Application:** Develop a mobile app for easier access to HMS.
+- **Advanced Analytics:** Implement analytics to monitor hostel usage and predict maintenance needs.
+- **Integration with University Systems:** Integrate HMS with other university management systems for seamless data exchange.
+
+## Contributors
+
+- **Tanmay Pawar (2022UCA1850)**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **NSUT:** For providing the opportunity to work on this project.
+- **Mentors and Professors:** For their guidance and support throughout the development of this project.
